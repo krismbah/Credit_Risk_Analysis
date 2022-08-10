@@ -134,17 +134,14 @@ Credit Risk Resampling w/ Oversampling:
 
 Credit Risk Resampling w/ Oversampling:
 
-1. An accuracy score of 0.63.
-2. A precision score of 0.01.
-3. A recall/sensitivity of 0.69.
-4. And a F1 score of 0.01.
+1. An accuracy score of 0.78.
+2. A precision score of 0.03.
+3. A recall/sensitivity of 0.70.
+4. And a F1 score of 0.06.
 
 Credit Risk Resampling w/ Oversampling:
 
-1. An accuracy score of 0..
-2. A precision score of .
-3. A recall/sensitivity of .
-4. And a F1 score of .
-
-
-
+1. An accuracy score of 0.93.
+2. A precision score of 0.09.
+3. A recall/sensitivity of 0.92.
+4. And a F1 score of 0.16.
