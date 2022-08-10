@@ -104,9 +104,47 @@ Figure 3.6:
 
 To summarize, this project gained access to approximately 50 datasets. Each one containing reviews of a specific product, from clothing apparel to wireless products. Choosing one of these datasets (electronics), PySpark was used to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, PySpark was also used to determine if there is any bias toward favorable reviews from Vine members in your dataset. The following summary is to be submitted to the SellBy stakeholders:
 
-1. The paid dataset contained 1,080 reviews.
-2. 454 of the 1,080 paid reviews were given 5-star ratings.
-3. 42 percent of the paid reviews were given 5-star ratings.
-4. The unpaid dataset contained 49,673 reviews.
-5. 23,043 of the 49,673 unpaid reviews were given 5-star ratings.
-6. There does not appear to be bias toward favorable reviews from Vine members who purchased electronic products on Amazon.
+Credit Risk Resampling w/ Oversampling:
+
+1. An accuracy score of .
+2. A precision score of .
+3. A recall/sensitivity of .
+4. And a F1 score of .
+
+Credit Risk Resampling w/ Oversampling:
+
+1. An accuracy score of .
+2. A precision score of .
+3. A recall/sensitivity of .
+4. And a F1 score of .
+
+Credit Risk Resampling w/ Oversampling:
+
+1. An accuracy score of .
+2. A precision score of .
+3. A recall/sensitivity of .
+4. And a F1 score of .
+
+Credit Risk Resampling w/ Oversampling:
+
+1. An accuracy score of .
+2. A precision score of .
+3. A recall/sensitivity of .
+4. And a F1 score of .
+
+Credit Risk Resampling w/ Oversampling:
+
+1. An accuracy score of .
+2. A precision score of .
+3. A recall/sensitivity of .
+4. And a F1 score of .
+
+Credit Risk Resampling w/ Oversampling:
+
+1. An accuracy score of .
+2. A precision score of .
+3. A recall/sensitivity of .
+4. And a F1 score of .
+
+
+
