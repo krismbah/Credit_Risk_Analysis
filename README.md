@@ -60,11 +60,11 @@ Figure 2.3:
 
 Figure 2.4:
 
-![Image2.4](https://raw.githubusercontent.com/krismbah/Credit_Risk_Analysis/main/D2.2.png)
+![Image2.4](https://raw.githubusercontent.com/krismbah/Credit_Risk_Analysis/main/D2.4.png)
 
 Figure 2.5:
 
-![Image2.5](https://raw.githubusercontent.com/krismbah/Credit_Risk_Analysis/main/D2.3.png)
+![Image2.5](https://raw.githubusercontent.com/krismbah/Credit_Risk_Analysis/main/D2.5.png)
 
 
 ***Deliverable 3: 3: Use Ensemble Classifiers to Predict Credit Risk***
@@ -106,42 +106,42 @@ To summarize, this project gained access to approximately 50 datasets. Each one 
 
 Credit Risk Resampling w/ Oversampling:
 
-1. An accuracy score of .
-2. A precision score of .
-3. A recall/sensitivity of .
-4. And a F1 score of .
+1. An accuracy score of 0.64.
+2. A precision score of 0.01.
+3. A recall/sensitivity of 0.72.
+4. And a F1 score of 0.02.
 
 Credit Risk Resampling w/ Oversampling:
 
-1. An accuracy score of .
-2. A precision score of .
-3. A recall/sensitivity of .
-4. And a F1 score of .
+1. An accuracy score of 0.66.
+2. A precision score of 0.01.
+3. A recall/sensitivity of 0.63.
+4. And a F1 score of 0.02.
 
 Credit Risk Resampling w/ Oversampling:
 
-1. An accuracy score of .
-2. A precision score of .
-3. A recall/sensitivity of .
-4. And a F1 score of .
+1. An accuracy score of 0.54.
+2. A precision score of 0.01.
+3. A recall/sensitivity of 0.69.
+4. And a F1 score of 0.01.
 
 Credit Risk Resampling w/ Oversampling:
 
-1. An accuracy score of .
-2. A precision score of .
-3. A recall/sensitivity of .
-4. And a F1 score of .
+1. An accuracy score of 0.63.
+2. A precision score of 0.01.
+3. A recall/sensitivity of 0.69.
+4. And a F1 score of 0.01.
 
 Credit Risk Resampling w/ Oversampling:
 
-1. An accuracy score of .
-2. A precision score of .
-3. A recall/sensitivity of .
-4. And a F1 score of .
+1. An accuracy score of 0.63.
+2. A precision score of 0.01.
+3. A recall/sensitivity of 0.69.
+4. And a F1 score of 0.01.
 
 Credit Risk Resampling w/ Oversampling:
 
-1. An accuracy score of .
+1. An accuracy score of 0..
 2. A precision score of .
 3. A recall/sensitivity of .
 4. And a F1 score of .
