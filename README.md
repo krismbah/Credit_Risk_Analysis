@@ -102,44 +102,47 @@ Figure 3.6:
 
 ## Summary
 
-To summarize, this project gained access to approximately 50 datasets. Each one containing reviews of a specific product, from clothing apparel to wireless products. Choosing one of these datasets (electronics), PySpark was used to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, PySpark was also used to determine if there is any bias toward favorable reviews from Vine members in your dataset. The following summary is to be submitted to the SellBy stakeholders:
+To summarize, oversampling with the Naive Random and SMOTE algorithms produced inadequate results not recommended for commercial use in predicting credit risk. Both models had low accuracy scores (0.64 and 0.66) and displayed an imbalance between precision and sensitivity scores.  Similarly, the models using the Cluster Centroids and SMOTEEN algorithms produced inadequate results not recommended for commercial use in predicting credit risk. Both models had low accuracy scores (0.54 and 0.63) and displayed a greater imbalance between precision and sensitivity scores.
 
-Credit Risk Resampling w/ Oversampling:
+The Ensemble models using the Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier algorithms also produced inadequate results not recommended for commercial use in predicting credit risk. While both models had high accuracy scores (0.78 and 0.93), they both displayed an imbalance between low precision and higher sensitivity scores. 
+The following are the resulting scores from each imbalanced classification report:
+
+Credit Risk Resampling: Naive Random Oversampling algorithm:
 
 1. An accuracy score of 0.64.
 2. A precision score of 0.01.
 3. A recall/sensitivity of 0.72.
 4. And a F1 score of 0.02.
 
-Credit Risk Resampling w/ Oversampling:
+Credit Risk Resampling: SMOTE Oversampling algorithm:
 
 1. An accuracy score of 0.66.
 2. A precision score of 0.01.
 3. A recall/sensitivity of 0.63.
 4. And a F1 score of 0.02.
 
-Credit Risk Resampling w/ Oversampling:
+Credit Risk Resampling: Undersampling with Cluster Centroids algorithm:
 
 1. An accuracy score of 0.54.
 2. A precision score of 0.01.
 3. A recall/sensitivity of 0.69.
 4. And a F1 score of 0.01.
 
-Credit Risk Resampling w/ Oversampling:
+Credit Risk Resampling: Over and Undersampling with SMOTEEN algorithm:
 
 1. An accuracy score of 0.63.
 2. A precision score of 0.01.
 3. A recall/sensitivity of 0.69.
 4. And a F1 score of 0.01.
 
-Credit Risk Resampling w/ Oversampling:
+Credit Risk - Ensemble: Balanced Random Forest Classifier algorithm
 
 1. An accuracy score of 0.78.
 2. A precision score of 0.03.
 3. A recall/sensitivity of 0.70.
 4. And a F1 score of 0.06.
 
-Credit Risk Resampling w/ Oversampling:
+Credit Risk - Ensemble: Easy Ensemble AdaBoost Classifier algorithm
 
 1. An accuracy score of 0.93.
 2. A precision score of 0.09.
